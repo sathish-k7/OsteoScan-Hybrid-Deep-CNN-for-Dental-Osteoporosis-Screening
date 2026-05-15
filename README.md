@@ -1,6 +1,6 @@
 # OsteoScan: Hybrid Deep CNN for Dental Osteoporosis Screening
 
-🌐 **Live Demo:** [https://osteoscan-u1gx.onrender.com](https://osteoscan-u1gx.onrender.com)
+ **Live Demo:** [https://osteoscan-u1gx.onrender.com](https://osteoscan-u1gx.onrender.com)
 
 A hybrid deep learning system for three-class osteoporosis severity classification using dental periapical radiograph images. The pipeline combines a residual convolutional backbone with handcrafted texture features, attention mechanisms, ordinal-aware training, and conformal prediction-based uncertainty quantification.
 
