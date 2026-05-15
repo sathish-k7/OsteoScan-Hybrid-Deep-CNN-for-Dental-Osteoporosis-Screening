@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: osteoscan
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: PYTHON_BIN
+        value: python3
