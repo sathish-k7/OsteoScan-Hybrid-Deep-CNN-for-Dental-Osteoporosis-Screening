@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+
+# Dev dependencies / local builds
+node_modules
+.next
+
+# Jupyter notebooks (large, not needed at runtime)
+*.ipynb
+
+# Local env
+.env*.local
+.env
+
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+.venv
+venv
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# Coverage
+coverage

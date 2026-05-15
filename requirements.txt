@@ -1,0 +1,18 @@
+# PyTorch CPU-only (keeps image size manageable on Railway)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+
+# Image processing
+opencv-python-headless==4.10.0.84
+Pillow==10.3.0
+
+# Texture feature extraction
+scikit-image==0.22.0
+scikit-learn==1.4.2
+
+# Numerics
+numpy==1.26.4
+
+# Serialisation / pipeline
+joblib==1.4.0
