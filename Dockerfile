@@ -65,9 +65,9 @@ COPY models/ ./models/
 
 # Environment
 ENV NODE_ENV=production
-ENV PORT=3000
 ENV PYTHON_BIN=python3
 
-EXPOSE 3000
+# Render injects PORT=10000 at runtime; expose it
+EXPOSE 10000
 
-CMD ["node_modules/.bin/next", "start", "-p", "3000"]
+CMD ["sh", "-c", "node_modules/.bin/next start -p ${PORT:-3000}"]
